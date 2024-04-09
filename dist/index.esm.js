@@ -2172,7 +2172,7 @@ var canvasRenderer = {
   createRenderTarget: RenderTarget$1.init
 };
 
-const getCharDataUrl = char => `https://cdn.jsdelivr.net/gh/Vividize-Development/hanzi-writer/dist/hanzi-writer.min.js/${char}.json`;
+const getCharDataUrl = char => `https://cdn.jsdelivr.net/gh/Vividize-Development/hanzi-writer-data/data/${char}.json`;
 
 const defaultCharDataLoader = (char, onLoad, onError) => {
   // load char data from hanziwriter cdn (currently hosted on jsdelivr)
