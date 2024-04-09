@@ -2,7 +2,7 @@ import { CharacterJson } from './typings/types';
 
 const VERSION = '2.0';
 const getCharDataUrl = (char: string) =>
-  `https://cdn.jsdelivr.net/npm/hanzi-writer-data@${VERSION}/${char}.json`;
+  `https://cdn.jsdelivr.net/gh/Vividize-Development/hanzi-writer/dist/hanzi-writer.min.js/${char}.json`;
 
 const defaultCharDataLoader = (
   char: string,
