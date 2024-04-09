@@ -4237,10 +4237,9 @@ handlebars@^4.7.6:
   optionalDependencies:
     uglify-js "^3.1.4"
 
-hanzi-writer-data@^2.0.1:
+"hanzi-writer-data@https://github.com/Vividize-Development/hanzi-writer-data":
   version "2.0.1"
-  resolved "https://registry.yarnpkg.com/hanzi-writer-data/-/hanzi-writer-data-2.0.1.tgz#09ce12eb1c47d86aeb33313e622f17ba5cbac1ad"
-  integrity sha512-nbQwM+MaryGoq7pBMIZLCd3lFq03nXuJuwku1+6UbjL58uU+9OULVcMkoNvNuJSoIV7f1bbPRfD4D/LQa5S7qg==
+  resolved "https://github.com/Vividize-Development/hanzi-writer-data#aea1d41a5dad285577456c096383b2e0ef874156"
 
 har-schema@^2.0.0:
   version "2.0.0"
